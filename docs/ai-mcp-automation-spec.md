@@ -45,12 +45,21 @@ Store these in `.env` locally or GitHub Actions secrets. Never commit them.
 
 ## Automation Level 3: MCP
 
-If MCP servers are available for Jira, Confluence, and GitHub:
+This repository is configured for the official Atlassian Rovo MCP Server in `.vscode/mcp.json`.
+
+Atlassian target:
+
+- Site: `https://rohit6053patel.atlassian.net`
+- Jira project key: `CV26`
+- Jira board id: `3`
+
+If MCP is connected in VS Code:
 
 ### Jira MCP
 
 Target actions:
 
+- Search project `CV26` tickets from VS Code Agent mode
 - Create tickets from `jira/courtvision_ai_jira_backlog.csv`
 - Move tickets based on PR status
 - Summarize blocked work
@@ -96,4 +105,6 @@ Turn this sprint goal into Jira tickets with acceptance criteria.
 - AI-generated model explanations must match actual metrics and features.
 - No credentials, private data, or hackathon-sensitive files should be pasted into public AI tools.
 - Use clean evidence links for every automated status update.
+- Review high-impact Jira changes before approving them.
 
+See `docs/atlassian-mcp-vscode-setup.md` for the active VS Code setup.
