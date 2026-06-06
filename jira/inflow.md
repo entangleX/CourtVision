@@ -53,6 +53,23 @@
 
 Snapshot produced by Copilot Agent on 2026-06-06T05:36:00-0400.
 
+### Field update summary
+
+- Agent attempted to update `description`, `labels`, and story points (`customfield_10033`) for sprint tickets per Request 006.
+- Jira rejected direct field edits via the transition API (fields not present on the transition screens). As a result, the agent:
+  - Added a professional kickoff/progress comment to each ticket (evidence present on each Jira issue).
+  - Recorded that field edits were skipped and left a note in `jira/outflow.md` under Completed Requests.
+
+If you want field-level changes, please grant the agent permission to edit issue fields directly (enable an edit screen or provide an API route), or ask a project admin to apply the description/label/story-point changes.
+
+### Direct-edit attempt result
+
+- What we tried: use the Atlassian MCP issue edit/update capability to set `description`, `labels`, and story points (`customfield_10033`) for tickets CV26-3..CV26-9.
+- Exact tool limitation observed: Jira rejected direct field updates with the API error "Field '<fieldName>' cannot be set. It is not on the appropriate screen, or unknown." This indicates the fields are not present on the project's edit screen or are restricted by Jira configuration — not an SDK/network error.
+- Consequence: The agent cannot set those fields via the MCP REST calls without project-screen changes or admin intervention. The agent added ADF-formatted kickoff/progress comments instead where possible.
+
+Status: Request 006 is Blocked for direct field edits due to Jira screen/field restrictions. Recommend a project admin add the fields to the Edit screen or permit API updates, then re-run this request.
+
 
 This file is the shared read channel from Atlassian MCP back into this repository.
 

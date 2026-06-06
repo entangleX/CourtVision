@@ -64,13 +64,26 @@ Work started from VS Code Agent mode via Atlassian MCP.
 
 ## Completed Requests
 
-Move completed request summaries here after execution.
+- Request 003 — CV26-3 — Done 2026-06-06T05:35:13-0400
+  - Action: Added blocker comment and transitioned issue to `BLOCKED` (transition id: 41).
+  - Evidence: https://rohit6053patel.atlassian.net/browse/CV26-3
+  - Notes: `jira/inflow.md` refreshed with updated status and blocker details.
+
+- Request 004 — CV26-4 — Done 2026-06-06T05:35:17-0400
+  - Action: Added progress comment and transitioned issue to `Pending for Approval` (transition id: 61).
+  - Evidence: https://rohit6053patel.atlassian.net/browse/CV26-4
+  - Notes: `jira/inflow.md` refreshed with updated status.
+
+- Request 005 — Sprint 1 refresh — Done 2026-06-06T05:36:00-0400
+  - Action: Refreshed active sprint snapshot and rewrote `jira/inflow.md`.
+  - Evidence: `jira/inflow.md` in repository (updated snapshot).
+  - Notes: Included blockers, recent updates, and available transitions for touched issues.
 
 ## New Requests
 
 ### Request 003
 
-- Status: Ready
+- Status: Done
 - Created by: Codex
 - Requested action: Update GitHub setup ticket with blocker
 - Jira issue: `CV26-3`
@@ -102,10 +115,11 @@ Next action: fix GitHub authentication, push main, then invite Abhinay and Harsh
   - `CV26-3` is `Blocked` if the workflow supports it.
   - `jira/inflow.md` shows the latest status for `CV26-3`.
 - Execution notes:
+  - Done by Copilot Agent on 2026-06-06T05:35:13-0400: added blocker comment and transitioned CV26-3 to `BLOCKED` (transition id: 41). Evidence written to `jira/inflow.md` and available at https://rohit6053patel.atlassian.net/browse/CV26-3
 
 ### Request 004
 
-- Status: Ready
+- Status: Done
 - Created by: Codex
 - Requested action: Move Jira board setup ticket toward approval
 - Jira issue: `CV26-4`
@@ -136,10 +150,11 @@ Recommended next state: Pending for Approval, if that transition is available.
   - `CV26-4` is moved to `Pending for Approval` if Jira allows it.
   - `jira/inflow.md` shows the latest status for `CV26-4`.
 - Execution notes:
+  - Done by Copilot Agent on 2026-06-06T05:35:17-0400: added progress comment and transitioned CV26-4 to `Pending for Approval` (transition id: 61). Evidence written to `jira/inflow.md` and available at https://rohit6053patel.atlassian.net/browse/CV26-4
 
 ### Request 005
 
-- Status: Ready
+- Status: Done
 - Created by: Codex
 - Requested action: Refresh active sprint snapshot
 - Jira issue: Sprint 1 / Board 3
@@ -157,10 +172,11 @@ Recommended next state: Pending for Approval, if that transition is available.
 - Expected output:
   - `jira/inflow.md` is clean, current, and easy for Codex to read.
 - Execution notes:
+  - Done by Copilot Agent on 2026-06-06T05:36:00-0400: refreshed active sprint snapshot and rewrote `jira/inflow.md` with last sync, sprint details, ticket list, blockers, recent updates, and available transitions for CV26-3 and CV26-4.
 
-### Request 006
+-### Request 006
 
-- Status: Ready
+- Status: Blocked
 - Created by: Codex
 - Requested action: Enrich Sprint 1 tickets with proper descriptions, acceptance criteria, story points, and kickoff comments
 - Jira issue: `CV26-3`, `CV26-4`, `CV26-5`, `CV26-6`, `CV26-7`, `CV26-8`, `CV26-9`
@@ -411,4 +427,52 @@ Ticket clarified by Codex/Copilot bridge. Next step: Abhinay should wait for the
   - Missing story points are filled.
   - Each ticket has a clear next-action comment.
   - `jira/inflow.md` is refreshed with latest statuses, story points, and recently updated timestamps.
+- Execution notes:
+  - Blocked by Jira field/screen configuration: attempts to set `description`, `labels`, or story points (`customfield_10033`) via the MCP REST API returned the error "Field '<fieldName>' cannot be set. It is not on the appropriate screen, or unknown." 
+  - Agent added ADF-formatted kickoff/progress comments where possible, but could not perform direct field edits.
+  - Next steps: ask a Jira project admin to add the required fields to the Edit screen or permit API edits, then re-run Request 006. Alternatively, an admin may apply the description/labels/story points manually.
+
+### Request 007
+
+- Status: Ready
+- Created by: Codex
+- Requested action: Unblock GitHub repository setup ticket after successful push
+- Jira issue: `CV26-3`
+- Priority: Highest
+- Context from repo:
+  - Dedicated SSH key `id_ed25519_courtvision` was created and added to GitHub.
+  - Git remote now uses `git@github-courtvision:entangleX/CourtVision.git`.
+  - SSH auth test succeeded as GitHub account `entangleX`.
+  - `git push -u origin main` succeeded.
+  - Local `main` is tracking `origin/main`.
+  - GitHub repo evidence: `https://github.com/entangleX/CourtVision`
+- Instructions:
+  - Get Jira issue `CV26-3`.
+  - Add this Jira comment:
+
+```text
+GitHub blocker resolved from Codex/Copilot bridge.
+
+Resolution:
+- Created and configured a dedicated CourtVision SSH key.
+- GitHub authentication now succeeds as entangleX.
+- Remote origin is set to git@github-courtvision:entangleX/CourtVision.git.
+- main branch was pushed successfully to GitHub.
+
+Repository:
+https://github.com/entangleX/CourtVision
+
+Next action:
+Invite Abhinay and Harshit as collaborators and confirm they can access the repository.
+```
+
+  - Get available transitions for `CV26-3`.
+  - If a transition to `Pending for Approval` exists, move `CV26-3` to `Pending for Approval`.
+  - If not, move it to `In Progress` if available.
+  - Do not move it to `Done` until collaborator access is confirmed.
+  - Refresh `jira/inflow.md` with latest status for `CV26-3`.
+- Expected output:
+  - `CV26-3` has the GitHub blocker resolution comment.
+  - `CV26-3` is no longer `BLOCKED`.
+  - `jira/inflow.md` shows updated status and evidence link.
 - Execution notes:
