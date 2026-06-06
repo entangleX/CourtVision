@@ -18,6 +18,18 @@ When connected to `atlassianRovo`:
 - Treat GitHub as the source of truth for code changes.
 - Treat Confluence as the source of truth for durable project decisions.
 
+## Copilot-Codex Jira Bridge
+
+If you have Atlassian MCP access, use the file bridge:
+
+- Read Jira requests from `jira/outflow.md`.
+- Execute requests marked `Status: Ready`.
+- Write Jira results and current ticket state into `jira/inflow.md`.
+- Mark completed requests in `jira/outflow.md` as `Done`.
+- Mark blocked requests as `Blocked` and explain why.
+
+Codex may not have direct Atlassian MCP access, so `jira/inflow.md` is the source of truth for Jira state inside this repo.
+
 ## Default Jira Workflow
 
 Use the board's actual workflow transitions when available. If the user uses plain language, interpret it as:
@@ -53,4 +65,3 @@ project = CV26 AND statusCategory != Done ORDER BY priority DESC, updated DESC
 ```jql
 project = CV26 AND text ~ "blocked" ORDER BY updated DESC
 ```
-
