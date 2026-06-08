@@ -12,11 +12,13 @@ Build a credible, explainable, and presentation-ready tennis prediction system t
 
 ## Team
 
-| Name | Role | Email | Location |
-| --- | --- | --- | --- |
-| Rohit Kumar | Team Lead, Product Owner, Final Presenter | rohit6053patel@gmail.com | USA |
-| Abhinay Singh | Data Engineering, Feature Pipeline | abhi1863@gmail.com | India |
-| Harshit Singh | Modeling, Evaluation, Experiment Tracking | harshitsingh398@gmail.com | India |
+| Name | Email | Location |
+| --- | --- | --- |
+| Rohit Kumar | rohit6053patel@gmail.com | USA |
+| Abhinay Singh | abhi1863@gmail.com | India |
+| Harshit Singh | harshitsingh398@gmail.com | India |
+
+**Everyone is a co-owner of this product.** We work as one team with shared ownership. Task distribution will be finalized after our first successful meeting and team discussion. Areas of focus include data engineering, modeling & evaluation, GenAI integration, and presentation readiness.
 
 ## Operating Model
 
