@@ -18,7 +18,7 @@ Build a credible, explainable, and presentation-ready tennis prediction system t
 | Abhinay Singh | abhi1863@gmail.com | India |
 | Harshit Singh | harshitsingh398@gmail.com | India |
 
-**Everyone is a co-owner of this product.** We work as one team with shared ownership. Task distribution will be finalized after our first successful meeting and team discussion. Areas of focus include data engineering, model development, explainability, and presentation delivery.
+**Everyone is a co-owner of this product.** We work as one team with shared ownership. Task distribution will be finalized after our first successful meeting and team discussion. Areas of focus include data engineering, model development, explainability, and presentation.
 
 ## Operating Model
 
@@ -109,3 +109,38 @@ If setting up the project for the first time:
 3. Copy `docs/confluence/*.md` into Confluence pages
 4. Ensure all three team members have access to Jira, Confluence, GitHub, and team chat
 5. Start Sprint 0 immediately and keep all decisions in docs
+
+---
+
+## References & Resources
+
+### Tennis-Specific Prediction Models
+
+- **[hikmatazimzade/tennis-ai](https://github.com/hikmatazimzade/tennis-ai)** – XGBoost/CatBoost models with web UI and complete data science pipeline
+- **[KutayKoray/ATP-Tennis-Prediction-Using-ANN](https://github.com/KutayKoray/ATP-Tennis-Prediction-Using-ANN)** – Neural network for Wimbledon prediction that outperformed IBM SlamTracker
+- **[tommywood81/tennis-tomorrow-public](https://github.com/tommywood81/tennis-tomorrow-public)** – LSTM sequence-based approach for ATP match prediction
+- **[neenza/tnnp](https://github.com/neenza/tnnp)** – Neural network model with ~68% accuracy on tennis match prediction
+- **[GitHub Tennis Prediction Topic](https://github.com/topics/tennis-prediction)** – Browse 50+ tennis prediction repositories
+
+### Explainable AI & Interpretability
+
+- **[SHAP (SHapley Additive exPlanations)](https://github.com/shap/shap)** ⭐ Industry standard for model interpretability; integrates with XGBoost, scikit-learn, neural networks
+- **[InterpretML (Microsoft)](https://github.com/interpretml/interpret)** – Explainable Boosting Machine (EBM) and interactive visualizations
+- **[Awesome Explainable AI](https://github.com/wangyongjie-ntu/Awesome-Explainable-AI)** – Curated XAI libraries, papers, and tutorials
+
+### Data & APIs
+
+- **[Tennis-API.com](https://tennis-api.com/)** – Live scores, rankings, historical match data, ATP/WTA coverage
+- **[Kaggle Tennis Datasets](https://www.kaggle.com/search?q=tennis+dataset)** – Historical match data and player statistics
+- **[ATP Tour Official Data](https://www.atptour.com/)** – Authoritative source for player rankings and match records
+
+### Hackathon & Competition Examples
+
+- **[Kaggle March Madness Solutions](https://github.com/topics/march-madness)** – Tournament prediction structure similar to Wimbledon knockout format
+- **[NFL Big Data Bowl](https://github.com/topics/nfl-big-data-bowl)** – Hackathon format, workflow patterns, and submission guidelines
+
+### Recommended Learning Resources
+
+- **Feature Engineering for Sports:** Head-to-head records, surface-specific stats, player ranking trends, rolling performance indices
+- **Common Approaches:** XGBoost/CatBoost for interpretability, LSTM for temporal patterns, ensemble methods for robustness
+- **Evaluation Metrics:** Accuracy, log-loss, ROC-AUC, custom metrics for set-difference signals
