@@ -90,3 +90,42 @@ CourtVision AI/
 
 Do not store private credentials in Drive or GitHub.
 
+## 6. Google Cloud Platform
+
+Use the team's GCP free trial project for cloud storage, processing, and model-related services.
+
+Project details:
+
+- Project name: `AGI-Lab`
+- Project ID: `agi-lab-499017`
+- Project number: `8095576102`
+- Account status: Free Trial with $300.00 credit remaining
+- Trial expiration: September 9, 2026
+
+Recommended VS Code setup:
+
+1. Install the Cloud Code extension from the VS Code Marketplace.
+2. Authenticate locally with the Google Cloud CLI:
+
+```bash
+gcloud auth login
+gcloud config set project agi-lab-499017
+```
+
+3. Use Google Cloud Console to create service credentials or Gemini API keys only when needed.
+4. Store credentials in local environment variables or ignored `.env` files; never commit API keys, service account JSON files, or access tokens to GitHub.
+
+Contributor access:
+
+- Harshit Singh and Abhinay Singh have been added to the `AGI-Lab` GCP project.
+- Both contributors have been granted Editor permission on the project.
+- They do not need to create separate Google Cloud free trials or add credit cards for this project.
+- They should accept the Google Cloud invitation from the invited email account, or sign in to Google Cloud Console with that account and select `AGI-Lab` from the project dropdown.
+- After accepting access, each contributor should install the Google Cloud CLI and run:
+
+```bash
+gcloud auth login
+gcloud config set project agi-lab-499017
+```
+
+- The Cloud Code VS Code extension is recommended for visual project access. Contributors should sign in with the invited Google account and select `agi-lab-499017`.
