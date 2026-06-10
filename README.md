@@ -31,14 +31,15 @@ We will run like a small product team:
 - **Meetings:** Google Meet
 - **AI automation:** Jira/Confluence/GitHub MCP where available, with manual fallback templates
 
-## Current Status (as of 8 June 2026)
+## Current Status (as of 10 June 2026)
 
 - ✅ Repository created
 - ✅ Team invited to GitHub
+- ✅ Team added to Google Cloud project `AGI-Lab` with Editor access
 - ✅ Registration deadline passed
 - ⏳ Jira board setup: **[CV26 in progress](https://rohit6053patel.atlassian.net/jira/software/c/projects/CV26/boards/3)**
 - ⏳ Confluence pages: pending
-- 📅 **Phase 1 submission in 20 days** (28 June 2026, 11:59 PM IST) — *CRITICAL PRIORITY*
+- 📅 **Phase 1 submission in 18 days** (28 June 2026, 11:59 PM IST) — *CRITICAL PRIORITY*
 
 ## Important Dates
 
@@ -76,29 +77,115 @@ A task is done only when:
 - Jira ticket is updated with status, owner, and evidence
 - Pull request is reviewed before merging to `main`
 
-## Getting Started (for team members)
+## Full Project Setup
 
-### Clone the Repository
+Follow these steps when joining the project on a new machine.
+
+### 1. Accept Team Access
+
+Make sure you can access each shared workspace:
+
+- **GitHub:** Accept the repository invitation for `entangleX/CourtVision`.
+- **Jira:** Open the [CV26 Scrum Board](https://rohit6053patel.atlassian.net/jira/software/c/projects/CV26/boards/3) and confirm you can view assigned tickets.
+- **Confluence:** Confirm you can access the project knowledge base when pages are shared.
+- **Google Cloud:** Accept the Google Cloud invitation for project `AGI-Lab`.
+
+Google Cloud project details:
+
+- Project name: `AGI-Lab`
+- Project ID: `agi-lab-499017`
+- Project number: `8095576102`
+- Access: Harshit Singh and Abhinay Singh have Editor permission
+
+Team members do not need to create separate Google Cloud free trials or add credit cards for this project.
+
+### 2. Install Local Tools
+
+Install these tools before working in VS Code:
+
+- [Git](https://git-scm.com/downloads)
+- [VS Code](https://code.visualstudio.com/)
+- [Google Cloud CLI](https://cloud.google.com/sdk/docs/install)
+- VS Code extension: Cloud Code
+- VS Code extension: Python
+
+Recommended Python setup:
+
+- Python 3.11+
+- `venv` for local virtual environments
+- Jupyter extension for notebooks
+
+### 3. Clone the Repository
 
 ```bash
 git clone https://github.com/entangleX/CourtVision.git
 cd CourtVision
 ```
 
-### Explore the Project
+If you use SSH instead of HTTPS:
+
+```bash
+git clone git@github.com:entangleX/CourtVision.git
+cd CourtVision
+```
+
+### 4. Open in VS Code
+
+```bash
+code .
+```
+
+Install recommended extensions if VS Code prompts you. Use the integrated terminal for the rest of setup.
+
+### 5. Configure Google Cloud
+
+Log in with the same Google account that was invited to `AGI-Lab`:
+
+```bash
+gcloud auth login
+gcloud config set project agi-lab-499017
+gcloud config list
+```
+
+Confirm the active project is `agi-lab-499017`.
+
+With the Cloud Code VS Code extension, sign in from the Cloud Code status bar and select project `agi-lab-499017`.
+
+Do not commit API keys, service account JSON files, `.env` files, or access tokens to GitHub.
+
+### 6. Create a Python Workspace
+
+Create and activate a local virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+```
+
+If a requirements file is added later, install it with:
+
+```bash
+pip install -r requirements.txt
+```
+
+For now, keep experiments in `notebooks/` and reusable code in `src/`.
+
+### 7. Explore the Project
 
 - **Sprint plans & decisions:** See `docs/` folder
 - **Modeling exploration:** See `notebooks/` (recommended order: 01 → 02 → 03 → 04)
 - **Jira board:** [CV26 Scrum Board](https://rohit6053patel.atlassian.net/jira/software/c/projects/CV26/boards/3)
 - **Code standards:** Check branch protection rules before opening PRs
 
-### First Steps
+### 8. Start Working
 
 1. Review this README and the sprint plan in `docs/`
 2. Join the team Jira board and claim a task from Sprint 0
-3. Create a feature branch: `git checkout -b feature/task-description`
-4. Commit early and often; push to your branch
-5. Open a PR for team review before merging to `main`
+3. Pull the latest `main`: `git pull origin main`
+4. Create a feature branch: `git checkout -b feature/task-description`
+5. Commit early and often; push to your branch
+6. Open a PR for team review before merging to `main`
 
 ## Quick Setup (Initial Onboarding)
 
@@ -107,7 +194,7 @@ If setting up the project for the first time:
 1. ✅ Repository already created
 2. Import `jira/courtvision_ai_jira_backlog.csv` into Jira (if not done)
 3. Copy `docs/confluence/*.md` into Confluence pages
-4. Ensure all three team members have access to Jira, Confluence, GitHub, and team chat
+4. Ensure all three team members have access to Jira, Confluence, GitHub, Google Cloud, and team chat
 5. Start Sprint 0 immediately and keep all decisions in docs
 
 ---
