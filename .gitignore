@@ -11,6 +11,8 @@ venv/
 # Data and outputs
 data/raw/
 data/processed/
+data/*.csv
+data/*.pdf
 *.parquet
 *.pkl
 *.joblib
@@ -25,4 +27,3 @@ data/processed/
 
 # Reports generated locally
 reports/generated/
-

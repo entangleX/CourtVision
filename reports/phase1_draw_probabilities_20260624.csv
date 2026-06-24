@@ -1,0 +1,224 @@
+tour,model_rank,player,entry_rank,quarterfinal_probability,hybrid_score,trend_bucket,main_evidence
+ATP,1,"SINNER, Jannik (ITA)",1,0.9477,0.9401,slipping,strong overall Elo; strong grass Elo; high classifier probability
+ATP,2,"DJOKOVIC, Novak (SRB)",3,0.6629,0.7161,cooling,strong grass Elo; strong overall Elo; 30-3 recent Wimbledon record
+ATP,3,"ZVEREV, Alexander (GER)",2,0.5726,0.6612,improving,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,4,"FRITZ, Taylor (USA)",7,0.4074,0.5230,cooling,strong grass Elo; strong overall Elo; strong last-5-match form
+ATP,5,"SHELTON, Ben (USA)",5,0.3678,0.4937,slipping,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,6,"MEDVEDEV, Daniil",6,0.3675,0.4945,cooling,strong overall Elo; strong grass Elo; 11-4 recent Wimbledon record
+ATP,7,"FILS, Arthur (FRA)",16,0.2905,0.4014,stable,strong overall Elo; strong last-5-match form; strong grass Elo
+ATP,8,"DE MINAUR, Alex (AUS)",8,0.2900,0.4347,slipping,strong grass Elo; strong overall Elo; 10-4 recent Wimbledon record
+ATP,9,"RUBLEV, Andrey",11,0.2410,0.3815,stable,strong grass Elo; strong overall Elo; 10-4 recent Wimbledon record
+ATP,10,"PAUL, Tommy (USA)",23,0.2354,0.3757,stable,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,11,"AUGER-ALIASSIME, Felix (CAN)",4,0.2301,0.3976,cooling,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,12,"TIAFOE, Frances (USA)",18,0.2255,0.3716,stable,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,13,"COBOLLI, Flavio (ITA)",10,0.2038,0.3479,improving,strong overall Elo; strong grass Elo; 5-2 recent Wimbledon record
+ATP,14,"BUBLIK, Alexander (KAZ)",9,0.1964,0.3601,cooling,strong grass Elo; strong overall Elo; 9-5 recent Wimbledon record
+ATP,15,"LEHECKA, Jiri (CZE)",12,0.1911,0.3480,slipping,strong overall Elo; strong grass Elo; 4-2 recent Wimbledon record
+ATP,16,"RUUD, Casper (NOR)",15,0.1794,0.2978,improving,strong overall Elo; strong last-5-match form; 3-4 recent Wimbledon record
+ATP,17,"JODAR, Rafael (ESP)",26,0.1522,0.2760,surging,strong overall Elo; strong last-5-match form; 0-0 recent Wimbledon record
+ATP,18,"TIEN, Learner (USA)",17,0.1516,0.2914,slipping,strong overall Elo; strong last-5-match form; strong grass Elo
+ATP,19,"KHACHANOV, Karen",13,0.1472,0.3012,slipping,strong grass Elo; strong overall Elo; 8-3 recent Wimbledon record
+ATP,20,"DARDERI, Luciano (ITA)",14,0.1273,0.2503,slipping,strong overall Elo; strong last-5-match form; 3-2 recent Wimbledon record
+ATP,21,"MENSIK, Jakub (CZE)",25,0.1161,0.2572,cooling,strong overall Elo; strong last-5-match form; 2-2 recent Wimbledon record
+ATP,22,"NORRIE, Cameron (GBR)",19,0.1151,0.2698,slipping,strong grass Elo; strong overall Elo; 14-5 recent Wimbledon record
+ATP,23,"DAVIDOVICH FOKINA, Alejandro (ESP)",20,0.0980,0.2534,cooling,strong overall Elo; strong grass Elo; 5-4 recent Wimbledon record
+ATP,24,"BLOCKX, Alexander (BEL)",33,0.0912,0.1972,improving,strong last-5-match form; strong overall Elo; 0-0 recent Wimbledon record
+ATP,25,"KOKKINAKIS, Thanasi (AUS) PR",77,0.0818,0.2148,slipping,strong overall Elo; strong last-5-match form; strong grass Elo
+ATP,26,"FONSECA, Joao (BRA)",27,0.0759,0.2074,stable,strong overall Elo; strong last-5-match form; 2-1 recent Wimbledon record
+ATP,27,"NAKASHIMA, Brandon (USA)",30,0.0759,0.2364,stable,strong grass Elo; strong overall Elo; strong last-5-match form
+ATP,28,"CERUNDOLO, Francisco (ARG)",24,0.0741,0.2468,stable,strong overall Elo; strong last-5-match form; strong grass Elo
+ATP,29,"CILIC, Marin (CRO)",40,0.0649,0.2281,slipping,strong grass Elo; strong overall Elo; 5-2 recent Wimbledon record
+ATP,30,"TABILO, Alejandro (CHI)",32,0.0596,0.2087,slipping,strong overall Elo; strong grass Elo; 3-2 recent Wimbledon record
+ATP,31,"HUMBERT, Ugo (FRA)",31,0.0593,0.2241,slipping,strong grass Elo; strong overall Elo; strong last-5-match form
+ATP,32,"TIRANTE, Thiago Agustin (ARG)",52,0.0586,0.1806,improving,strong overall Elo; 0-0 recent Wimbledon record; strong grass Elo
+ATP,33,"MAJCHRZAK, Kamil (POL)",69,0.0575,0.2028,stable,strong grass Elo; strong last-5-match form; strong overall Elo
+ATP,34,"BUSE, Ignacio (PER)",51,0.0568,0.1802,improving,strong last-5-match form; strong overall Elo; strong grass Elo
+ATP,35,"MOLCAN, Alex (SVK)",98,0.0511,0.1580,stable,strong overall Elo; strong last-5-match form; 2-2 recent Wimbledon record
+ATP,36,"VAN DE ZANDSCHULP, Botic (NED)",47,0.0490,0.1762,stable,strong overall Elo; 7-5 recent Wimbledon record; strong grass Elo
+ATP,37,"RINDERKNECH, Arthur (FRA)",21,0.0486,0.1954,slipping,strong overall Elo; strong grass Elo; 3-5 recent Wimbledon record
+ATP,38,"NAVONE, Mariano (ARG)",38,0.0462,0.1580,surging,strong overall Elo; strong last-5-match form; 1-2 recent Wimbledon record
+ATP,39,"BERRETTINI, Matteo (ITA)",99,0.0435,0.2037,improving,strong grass Elo; strong overall Elo; strong last-5-match form
+ATP,40,"PRIZMIC, Dino (CRO)",65,0.0425,0.1525,improving,strong last-5-match form; 0-0 recent Wimbledon record; strong grass Elo
+ATP,41,"DIMITROV, Grigor (BUL)",110,0.0385,0.1951,slipping,strong grass Elo; strong overall Elo; 10-2 recent Wimbledon record
+ATP,42,"SHAPOVALOV, Denis (CAN)",34,0.0379,0.1765,cooling,10-5 recent Wimbledon record; strong grass Elo; strong overall Elo
+ATP,43,"ETCHEVERRY, Tomas Martin (ARG)",22,0.0379,0.1572,slipping,strong overall Elo; 2-4 recent Wimbledon record; strong last-5-match form
+ATP,44,"HURKACZ, Hubert (POL)",70,0.0368,0.1958,surging,strong grass Elo; strong overall Elo; 9-3 recent Wimbledon record
+ATP,45,"MEDJEDOVIC, Hamad (SRB)",50,0.0366,0.1713,improving,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,46,"DROGUET, Titouan (FRA)",102,0.0364,0.1242,cooling,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,47,"DRAPER, Jack (GBR)",68,0.0352,0.2052,slipping,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,48,"MUNAR, Jaume (ESP)",36,0.0321,0.1399,cooling,strong overall Elo; 5-5 recent Wimbledon record; strong last-5-match form
+ATP,49,"MICHELSEN, Alex (USA)",37,0.0318,0.1909,slipping,strong overall Elo; strong grass Elo; strong last-5-match form
+ATP,50,"LANDALUCE, Martin (ESP)",61,0.0315,0.1269,slipping,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,51,"COLLIGNON, Raphael (BEL)",58,0.0299,0.1612,improving,strong grass Elo; strong last-5-match form; strong overall Elo
+ATP,52,"MERIDA, Daniel (ESP)",79,0.0278,0.1222,improving,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,53,"TSITSIPAS, Stefanos (GRE)",74,0.0274,0.1702,stable,strong grass Elo; strong overall Elo; 6-4 recent Wimbledon record
+ATP,54,"BURRUCHAGA, Roman Andres (ARG)",60,0.0262,0.1217,stable,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,55,"MOUTET, Corentin (FRA)",29,0.0254,0.1711,cooling,strong grass Elo; strong overall Elo; 2-3 recent Wimbledon record
+ATP,56,"HANFMANN, Yannick (GER)",49,0.0238,0.1404,slipping,strong overall Elo; strong last-5-match form; 0-3 recent Wimbledon record
+ATP,57,"SONEGO, Lorenzo (ITA)",63,0.0233,0.1478,cooling,strong grass Elo; 9-5 recent Wimbledon record; strong overall Elo
+ATP,58,"VALLEJO, Adolfo Daniel (PAR)",64,0.0223,0.1212,improving,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,59,"ATMANE, Terence (FRA)",45,0.0219,0.1305,slipping,0-0 recent Wimbledon record; strong overall Elo; strong grass Elo
+ATP,60,"FUCSOVICS, Marton (HUN)",53,0.0210,0.1599,cooling,strong grass Elo; 7-5 recent Wimbledon record; strong overall Elo
+ATP,61,"STRUFF, Jan-Lennard (GER)",71,0.0204,0.1538,stable,strong grass Elo; 4-4 recent Wimbledon record; strong overall Elo
+ATP,62,"BELLUCCI, Mattia (ITA)",66,0.0196,0.1354,improving,strong grass Elo; strong last-5-match form; 2-2 recent Wimbledon record
+ATP,63,"BONZI, Benjamin (FRA)",90,0.0192,0.1425,stable,strong overall Elo; strong grass Elo; 3-4 recent Wimbledon record
+ATP,64,"GILL, Felix (GBR)",112,0.0188,0.0971,stable,strong last-5-match form; 0-0 recent Wimbledon record; strong grass Elo
+ATP,65,"MANNARINO, Adrian (FRA)",39,0.0176,0.1585,slipping,strong grass Elo; strong last-5-match form; 4-4 recent Wimbledon record
+ATP,66,"DIALLO, Gabriel (CAN)",42,0.0174,0.1509,slipping,strong grass Elo; 1-1 recent Wimbledon record; strong overall Elo
+ATP,67,"MPETSHI PERRICARD, Giovanni (FRA)",72,0.0171,0.1050,improving,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,68,"GRIEKSPOOR, Tallon (NED)",28,0.0168,0.1696,cooling,strong grass Elo; strong overall Elo; 2-5 recent Wimbledon record
+ATP,69,"BORGES, Nuno (POR)",44,0.0160,0.1173,stable,strong overall Elo; strong last-5-match form; 2-4 recent Wimbledon record
+ATP,70,"KOPRIVA, Vit (CZE)",57,0.0159,0.1131,improving,strong overall Elo; 0-2 recent Wimbledon record; strong last-5-match form
+ATP,71,"MAROZSAN, Fabian (HUN)",46,0.0158,0.1139,slipping,strong overall Elo; 1-3 recent Wimbledon record; strong last-5-match form
+ATP,72,"BROOKSBY, Jenson (USA)",54,0.0158,0.1452,cooling,strong grass Elo; 3-2 recent Wimbledon record; strong overall Elo
+ATP,73,"KECMANOVIC, Miomir (SRB)",41,0.0149,0.1326,slipping,7-5 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,74,"CERUNDOLO, Juan Manuel (ARG)",48,0.0142,0.1185,slipping,strong last-5-match form; 0-1 recent Wimbledon record; strong overall Elo
+ATP,75,"UGO CARABELLI, Camilo (ARG)",62,0.0137,0.0988,surging,strong last-5-match form; 0-1 recent Wimbledon record; strong overall Elo
+ATP,76,"SVAJDA, Zachary (USA)",78,0.0132,0.0900,improving,strong last-5-match form; 0-0 recent Wimbledon record; strong overall Elo
+ATP,77,"VAN ASSCHE, Luca (FRA)",95,0.0131,0.0822,improving,strong last-5-match form; 0-2 recent Wimbledon record; strong grass Elo
+ATP,78,"HALYS, Quentin (FRA)",81,0.0130,0.1047,improving,5-4 recent Wimbledon record; strong last-5-match form; strong overall Elo
+ATP,79,"CARRENO BUSTA, Pablo (ESP)",83,0.0130,0.1104,improving,strong overall Elo; strong last-5-match form; 0-1 recent Wimbledon record
+ATP,80,"WU, Yibing (CHN)",85,0.0130,0.0965,cooling,strong overall Elo; 0-1 recent Wimbledon record; strong last-5-match form
+ATP,81,"TRUNGELLITI, Marco (ARG)",73,0.0127,0.0852,improving,0-1 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,82,"HIJIKATA, Rinky (AUS)",94,0.0122,0.1131,stable,strong last-5-match form; strong grass Elo; 1-2 recent Wimbledon record
+ATP,83,"WAWRINKA, Stan (SUI)",105,0.0121,0.1189,slipping,strong grass Elo; 3-3 recent Wimbledon record; strong last-5-match form
+ATP,84,"BAUTISTA AGUT, Roberto (ESP)",91,0.0120,0.1306,slipping,strong grass Elo; 7-4 recent Wimbledon record; strong last-5-match form
+ATP,85,"FERY, Arthur (GBR)",108,0.0119,0.0926,surging,strong last-5-match form; 1-3 recent Wimbledon record; strong grass Elo
+ATP,86,"SVRCINA, Dalibor (CZE)",103,0.0117,0.1004,stable,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,87,"GIRON, Marcos (USA)",76,0.0114,0.1261,cooling,strong grass Elo; 5-5 recent Wimbledon record; strong overall Elo
+ATP,88,"QUINN, Ethan (USA)",43,0.0111,0.1231,slipping,strong grass Elo; 1-1 recent Wimbledon record; strong last-5-match form
+ATP,89,"BAEZ, Sebastian (ARG)",56,0.0111,0.0957,slipping,strong overall Elo; 1-3 recent Wimbledon record; strong last-5-match form
+ATP,90,"WENDELKEN, Harry (GBR)",111,0.0111,0.0748,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,91,"DE JONG, Jesper (NED)",101,0.0105,0.0902,stable,strong last-5-match form; 1-1 recent Wimbledon record; strong overall Elo
+ATP,92,"DAMM, Martin (USA)",104,0.0102,0.0792,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,93,"PINNINGTON JONES, Jack (GBR)",107,0.0101,0.0727,slipping,1-1 recent Wimbledon record; strong last-5-match form; strong overall Elo
+ATP,94,"VUKIC, Aleksandar (AUS)",92,0.0101,0.1042,stable,strong grass Elo; 3-3 recent Wimbledon record; strong last-5-match form
+ATP,95,"POPYRIN, Alexei (AUS)",55,0.0099,0.0991,surging,strong overall Elo; strong last-5-match form; 2-5 recent Wimbledon record
+ATP,96,"NAVA, Emilio (USA)",89,0.0098,0.0852,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,97,"ALTMAIER, Daniel (GER)",59,0.0097,0.1173,surging,strong last-5-match form; strong overall Elo; 1-4 recent Wimbledon record
+ATP,98,"ARNALDI, Matteo (ITA)",88,0.0095,0.1010,surging,strong last-5-match form; strong overall Elo; 0-3 recent Wimbledon record
+ATP,99,"BERGS, Zizou (BEL)",35,0.0092,0.1019,slipping,strong overall Elo; 0-3 recent Wimbledon record; strong last-5-match form
+ATP,100,"SHIMABUKURO, Sho (JPN)",97,0.0088,0.0952,surging,strong grass Elo; strong last-5-match form; 0-1 recent Wimbledon record
+ATP,101,"WALTON, Adam (AUS)",93,0.0081,0.0785,improving,1-2 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,102,"SAMUEL, Toby (GBR)",109,0.0079,0.0672,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,103,"SHEVCHENKO, Aleksandr (KAZ)",82,0.0077,0.0847,slipping,strong overall Elo; 0-3 recent Wimbledon record; strong last-5-match form
+ATP,104,"MULLER, Alexandre (FRA)",100,0.0073,0.0939,improving,2-3 recent Wimbledon record; strong last-5-match form; strong overall Elo
+ATP,105,"DZUMHUR, Damir (BIH)",80,0.0070,0.1024,surging,strong grass Elo; strong last-5-match form; 0-1 recent Wimbledon record
+ATP,106,"KOVACEVIC, Aleksandar (USA)",86,0.0065,0.0599,stable,0-2 recent Wimbledon record; strong last-5-match form; strong overall Elo
+ATP,107,"DUCKWORTH, James (AUS)",75,0.0055,0.0759,stable,2-4 recent Wimbledon record; strong last-5-match form; strong grass Elo
+ATP,108,"OFNER, Sebastian (AUT)",84,0.0052,0.1007,surging,strong grass Elo; strong last-5-match form; 1-3 recent Wimbledon record
+ATP,109,"CHOINSKI, Jan (GBR)",96,0.0042,0.0537,surging,1-2 recent Wimbledon record; strong last-5-match form; surging recent trend
+ATP,110,"ROYER, Valentin (FRA)",67,0.0041,0.0779,stable,0-1 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,111,"KYPSON, Patrick (USA)",87,0.0040,0.0774,improving,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+ATP,112,"FEARNLEY, Jacob (GBR)",106,0.0037,0.0706,surging,1-2 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,1,"RYBAKINA, Elena (KAZ)",2,0.5601,0.6527,cooling,strong overall Elo; strong grass Elo; 19-4 recent Wimbledon record
+WTA,2,"SABALENKA, Aryna",1,0.5461,0.6703,cooling,strong overall Elo; strong grass Elo; 15-3 recent Wimbledon record
+WTA,3,"PEGULA, Jessica (USA)",5,0.4193,0.5340,slipping,strong overall Elo; strong grass Elo; 8-5 recent Wimbledon record
+WTA,4,"GAUFF, Coco (USA)",4,0.3807,0.4980,cooling,strong overall Elo; strong grass Elo; 8-5 recent Wimbledon record
+WTA,5,"SVITOLINA, Elina (UKR)",7,0.3429,0.4737,stable,strong overall Elo; strong grass Elo; 12-4 recent Wimbledon record
+WTA,6,"SWIATEK, Iga (POL)",3,0.2788,0.4683,slipping,strong grass Elo; strong overall Elo; 18-4 recent Wimbledon record
+WTA,7,"ANISIMOVA, Amanda (USA)",6,0.2416,0.4104,cooling,strong grass Elo; strong overall Elo; 10-3 recent Wimbledon record
+WTA,8,"MUCHOVA, Karolina (CZE)",9,0.2305,0.3671,cooling,strong overall Elo; strong grass Elo; strong last-5-match form
+WTA,9,"KEYS, Madison (USA)",18,0.1760,0.3435,improving,strong grass Elo; strong overall Elo; 12-3 recent Wimbledon record
+WTA,10,"KOSTYUK, Marta (UKR)",14,0.1591,0.2866,surging,strong overall Elo; strong last-5-match form; 5-5 recent Wimbledon record
+WTA,11,"BENCIC, Belinda (SUI)",10,0.1586,0.3430,slipping,strong grass Elo; strong overall Elo; 8-4 recent Wimbledon record
+WTA,12,"JOVIC, Iva (USA)",16,0.1540,0.2977,slipping,strong overall Elo; strong grass Elo; strong last-5-match form
+WTA,13,"NOSKOVA, Linda (CZE)",11,0.1482,0.3299,improving,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,14,"OSAKA, Naomi (JPN)",15,0.1365,0.2996,slipping,strong overall Elo; strong grass Elo; strong last-5-match form
+WTA,15,"OSTAPENKO, Jelena (LAT)",27,0.1249,0.2849,improving,strong grass Elo; strong overall Elo; 10-5 recent Wimbledon record
+WTA,16,"KREJCIKOVA, Barbora (CZE)",40,0.1237,0.2922,slipping,strong grass Elo; strong overall Elo; 14-3 recent Wimbledon record
+WTA,17,"ANDREEVA, Mirra",8,0.1226,0.3156,surging,strong overall Elo; strong last-5-match form; strong grass Elo
+WTA,18,"CIRSTEA, Sorana (ROU)",17,0.1188,0.2491,stable,strong overall Elo; strong last-5-match form; 5-5 recent Wimbledon record
+WTA,19,"MERTENS, Elise (BEL)",22,0.1185,0.2788,slipping,strong grass Elo; strong overall Elo; 9-5 recent Wimbledon record
+WTA,20,"POTAPOVA, Anastasia (AUT)",26,0.1143,0.2697,surging,strong overall Elo; strong last-5-match form; strong grass Elo
+WTA,21,"COCCIARETTO, Elisabetta (ITA)",37,0.1078,0.2346,slipping,strong grass Elo; 5-3 recent Wimbledon record; strong overall Elo
+WTA,22,"SINIAKOVA, Katerina (CZE)",33,0.0977,0.2425,slipping,strong grass Elo; strong overall Elo; 5-5 recent Wimbledon record
+WTA,23,"RADUCANU, Emma (GBR)",34,0.0958,0.2609,slipping,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,24,"SHNAIDER, Diana",24,0.0946,0.2587,improving,strong overall Elo; strong grass Elo; strong last-5-match form
+WTA,25,"KALINSKAYA, Anna",21,0.0935,0.2505,slipping,strong overall Elo; strong last-5-match form; 4-2 recent Wimbledon record
+WTA,26,"PAOLINI, Jasmine (ITA)",12,0.0879,0.2639,cooling,strong overall Elo; strong grass Elo; 6-5 recent Wimbledon record
+WTA,27,"BOULTER, Katie (GBR)",64,0.0836,0.2316,improving,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,28,"BOUZKOVA, Marie (CZE)",25,0.0829,0.2590,improving,strong last-5-match form; strong grass Elo; strong overall Elo
+WTA,29,"KESSLER, Mccartney (USA)",44,0.0811,0.2018,stable,strong overall Elo; strong grass Elo; 0-2 recent Wimbledon record
+WTA,30,"NAVARRO, Emma (USA)",36,0.0717,0.2398,surging,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,31,"VEKIC, Donna (CRO)",65,0.0620,0.2167,surging,strong grass Elo; strong last-5-match form; strong overall Elo
+WTA,32,"ZHENG, Qinwen (CHN)",50,0.0615,0.1678,slipping,strong overall Elo; 2-4 recent Wimbledon record; strong last-5-match form
+WTA,33,"EALA, Alexandra (PHI)",35,0.0611,0.2092,stable,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,34,"LINETTE, Magda (POL)",54,0.0571,0.1932,improving,strong overall Elo; strong last-5-match form; strong grass Elo
+WTA,35,"CHWALINSKA, Maja (POL)",105,0.0566,0.1706,improving,strong last-5-match form; strong overall Elo; strong grass Elo
+WTA,36,"LI, Ann (USA)",28,0.0559,0.1955,improving,strong overall Elo; strong last-5-match form; strong grass Elo
+WTA,37,"BARTUNKOVA, Nikola (CZE)",61,0.0556,0.1684,slipping,strong grass Elo; 0-0 recent Wimbledon record; strong overall Elo
+WTA,38,"ALEXANDROVA, Ekaterina",13,0.0536,0.2318,cooling,strong grass Elo; 7-3 recent Wimbledon record; strong overall Elo
+WTA,39,"TAUSON, Clara (DEN)",20,0.0511,0.1841,cooling,strong overall Elo; 3-3 recent Wimbledon record; strong grass Elo
+WTA,40,"BADOSA, Paula (ESP)",100,0.0500,0.1922,stable,strong grass Elo; strong overall Elo; 10-4 recent Wimbledon record
+WTA,41,"SNIGUR, Daria (UKR)",92,0.0491,0.1572,slipping,strong grass Elo; strong last-5-match form; 1-1 recent Wimbledon record
+WTA,42,"TOWNSEND, Taylor (USA)",67,0.0480,0.1403,cooling,strong overall Elo; strong last-5-match form; 0-2 recent Wimbledon record
+WTA,43,"KALININA, Anhelina (UKR)",86,0.0479,0.1400,improving,strong last-5-match form; strong overall Elo; 2-3 recent Wimbledon record
+WTA,44,"PUTINTSEVA, Yulia (KAZ)",69,0.0474,0.1663,improving,strong grass Elo; strong overall Elo; 4-5 recent Wimbledon record
+WTA,45,"MCNALLY, Caty (USA)",53,0.0462,0.1850,improving,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,46,"SAMSONOVA, Liudmila",19,0.0442,0.2091,slipping,strong grass Elo; 9-4 recent Wimbledon record; strong overall Elo
+WTA,47,"PARRY, Diane (FRA)",91,0.0438,0.1747,slipping,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,48,"SIEGEMUND, Laura (GER)",43,0.0411,0.1799,stable,strong overall Elo; strong grass Elo; 5-3 recent Wimbledon record
+WTA,49,"CRISTIAN, Jaqueline (ROU)",30,0.0399,0.1522,stable,strong overall Elo; strong last-5-match form; 1-3 recent Wimbledon record
+WTA,50,"RUSE, Elena-Gabriela (ROU)",70,0.0388,0.1652,surging,strong grass Elo; strong overall Elo; strong last-5-match form
+WTA,51,"SONMEZ, Zeynep (TUR)",56,0.0377,0.1587,stable,2-1 recent Wimbledon record; strong grass Elo; strong overall Elo
+WTA,52,"GIBSON, Talia (AUS)",52,0.0368,0.1480,slipping,strong grass Elo; strong last-5-match form; 0-1 recent Wimbledon record
+WTA,53,"SIERRA, Solana (ARG)",60,0.0354,0.1682,surging,strong grass Elo; 3-1 recent Wimbledon record; strong last-5-match form
+WTA,54,"YASTREMSKA, Dayana (UKR)",42,0.0346,0.1748,slipping,strong grass Elo; 4-3 recent Wimbledon record; strong overall Elo
+WTA,55,"KASATKINA, Daria (AUS)",58,0.0339,0.1756,stable,strong grass Elo; 7-4 recent Wimbledon record; strong overall Elo
+WTA,56,"BONDAR, Anna (HUN)",55,0.0337,0.1107,improving,strong overall Elo; 0-3 recent Wimbledon record; strong last-5-match form
+WTA,57,"TOMLJANOVIC, Ajla (AUS)",87,0.0325,0.1610,slipping,strong grass Elo; 7-4 recent Wimbledon record; strong last-5-match form
+WTA,58,"BEJLEK, Sara (CZE)",32,0.0306,0.1347,cooling,0-0 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,59,"TAGGER, Lilli (AUT)",88,0.0302,0.1239,cooling,0-0 recent Wimbledon record; strong grass Elo; strong overall Elo
+WTA,60,"GOLUBIC, Viktorija (SUI)",77,0.0296,0.1514,improving,strong last-5-match form; strong grass Elo; 6-5 recent Wimbledon record
+WTA,61,"UDVARDY, Panna (HUN)",63,0.0295,0.1122,stable,strong last-5-match form; 1-3 recent Wimbledon record; strong overall Elo
+WTA,62,"STEARNS, Peyton (USA)",89,0.0291,0.1231,improving,strong overall Elo; strong last-5-match form; 0-3 recent Wimbledon record
+WTA,63,"FERNANDEZ, Leylah (CAN)",23,0.0289,0.1470,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,64,"BOUZAS MANEIRO, Jessica (ESP)",48,0.0280,0.1521,slipping,strong grass Elo; 4-2 recent Wimbledon record; strong overall Elo
+WTA,65,"OSORIO, Camila (COL)",72,0.0280,0.1255,improving,strong overall Elo; strong last-5-match form; 3-3 recent Wimbledon record
+WTA,66,"WANG, Xinyu (CHN)",29,0.0276,0.1371,stable,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,67,"VALENTOVA, Tereza (CZE)",41,0.0266,0.1347,cooling,0-0 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,68,"STARODUBTSEVA, Yuliia (UKR)",51,0.0264,0.1424,surging,strong last-5-match form; 2-2 recent Wimbledon record; strong overall Elo
+WTA,69,"PLISKOVA, Karolina (CZE) SR",38,0.0257,0.1287,stable,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,70,"SAKKARI, Maria (GRE)",45,0.0256,0.1571,slipping,strong overall Elo; strong grass Elo; 6-5 recent Wimbledon record
+WTA,71,"BOISSON, Lois (FRA)",47,0.0250,0.1350,cooling,strong overall Elo; 0-0 recent Wimbledon record; strong last-5-match form
+WTA,72,"OLIYNYKOVA, Oleksandra (UKR)",62,0.0238,0.1308,slipping,strong last-5-match form; 0-0 recent Wimbledon record; strong grass Elo
+WTA,73,"BEGU, Irina-Camelia (ROU) SR",78,0.0229,0.1256,cooling,strong last-5-match form; strong overall Elo; 6-5 recent Wimbledon record
+WTA,74,"ITO, Aoi (JPN) SR",84,0.0225,0.1082,stable,strong last-5-match form; 0-1 recent Wimbledon record; strong overall Elo
+WTA,75,"LYS, Eva (GER)",76,0.0217,0.1314,cooling,strong overall Elo; 1-2 recent Wimbledon record; strong last-5-match form
+WTA,76,"MARCINKO, Petra (CRO)",71,0.0212,0.1202,surging,strong last-5-match form; 0-0 recent Wimbledon record; strong grass Elo
+WTA,77,"VANDEWINKEL, Hanne (BEL)",99,0.0210,0.1124,stable,strong grass Elo; 0-0 recent Wimbledon record; strong last-5-match form
+WTA,78,"BIRRELL, Kimberly (AUS)",79,0.0204,0.0971,cooling,0-1 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,79,"ZAKHAROVA, Anastasia",74,0.0200,0.1216,slipping,strong grass Elo; 1-1 recent Wimbledon record; strong last-5-match form
+WTA,80,"RUZIC, Antonia (CRO)",57,0.0196,0.1127,slipping,0-0 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,81,"JOINT, Maya (AUS)",31,0.0194,0.1614,cooling,strong grass Elo; 0-1 recent Wimbledon record; strong overall Elo
+WTA,82,"FRECH, Magdalena (POL)",46,0.0182,0.1012,cooling,2-4 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,83,"ZHANG, Shuai (CHN)",68,0.0169,0.1049,cooling,2-5 recent Wimbledon record; strong overall Elo; strong grass Elo
+WTA,84,"TJEN, Janice (INA)",39,0.0167,0.1108,cooling,0-0 recent Wimbledon record; strong last-5-match form; strong overall Elo
+WTA,85,"SORRIBES TORMO, Sara (ESP) SR",82,0.0161,0.0952,stable,3-4 recent Wimbledon record; strong overall Elo; strong last-5-match form
+WTA,86,"KLUGMAN, Hannah (GBR)",111,0.0156,0.0814,improving,0-1 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,87,"MARIA, Tatjana (GER)",49,0.0154,0.1438,surging,strong grass Elo; strong last-5-match form; 5-4 recent Wimbledon record
+WTA,88,"XU, Mimi (GBR)",108,0.0152,0.0750,surging,0-1 recent Wimbledon record; strong last-5-match form; strong overall Elo
+WTA,89,"JIMENEZ KASINTSEVA, Victoria (AND)",103,0.0149,0.0953,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,90,"DART, Harriet (GBR)",106,0.0136,0.0874,surging,strong grass Elo; 3-5 recent Wimbledon record; strong last-5-match form
+WTA,91,"ZARAZUA, Renata (MEX)",66,0.0134,0.0898,slipping,1-2 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,92,"SELEKHMETEVA, Oksana (ESP)",85,0.0132,0.0982,slipping,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,93,"KORPATSCH, Tamara (GER)",93,0.0130,0.0757,cooling,strong last-5-match form; 1-3 recent Wimbledon record; strong overall Elo
+WTA,94,"PARKS, Alycia (USA)",75,0.0129,0.0865,improving,strong last-5-match form; 1-3 recent Wimbledon record; strong overall Elo
+WTA,95,"DUDENEY, Alicia (GBR)",109,0.0129,0.0838,stable,0-0 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,96,"ARANGO, Emiliana (COL)",95,0.0128,0.0843,surging,strong last-5-match form; 0-1 recent Wimbledon record; strong grass Elo
+WTA,97,"PODOROSKA, Nadia (ARG) SR",104,0.0125,0.0801,stable,2-3 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,98,"BLINKOVA, Anna",96,0.0118,0.0897,cooling,3-4 recent Wimbledon record; strong grass Elo; strong overall Elo
+WTA,99,"SWAN, Katie (GBR)",107,0.0117,0.0589,stable,strong last-5-match form; 0-3 recent Wimbledon record; strong overall Elo
+WTA,100,"TARARUDEE, Lanlana (THA)",97,0.0117,0.0977,improving,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,101,"WALTERT, Simona (SUI)",90,0.0108,0.0815,stable,0-1 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,102,"RAKHIMOVA, Kamilla (UZB)",81,0.0108,0.1164,improving,strong grass Elo; 2-2 recent Wimbledon record; strong last-5-match form
+WTA,103,"STOJSAVLJEVIC, Mika (GBR)",110,0.0107,0.0644,improving,0-1 recent Wimbledon record; strong last-5-match form; strong grass Elo
+WTA,104,"JONES, Francesca (GBR)",102,0.0100,0.0559,cooling,0-3 recent Wimbledon record; strong last-5-match form; strong overall Elo
+WTA,105,"HADDAD MAIA, Beatriz (BRA)",73,0.0099,0.1300,slipping,strong grass Elo; 5-3 recent Wimbledon record; strong overall Elo
+WTA,106,"SEIDEL, Ella (GER)",94,0.0097,0.0883,cooling,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,107,"ERJAVEC, Veronika (SLO)",80,0.0093,0.0839,surging,1-1 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,108,"KENIN, Sofia (USA)",83,0.0090,0.0971,improving,4-4 recent Wimbledon record; strong overall Elo; strong grass Elo
+WTA,109,"JACQUEMOT, Elsa (FRA)",59,0.0066,0.0884,slipping,1-2 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,110,"VIDMANOVA, Darja (CZE)",101,0.0065,0.0813,surging,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form
+WTA,111,"KRAUS, Sinja (AUT)",98,0.0061,0.0736,stable,0-0 recent Wimbledon record; strong grass Elo; strong last-5-match form

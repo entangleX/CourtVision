@@ -1,6 +1,18 @@
 # CourtVision AI
 
-Predictive analytics and explainable AI project for the EXL Analytics & AI Hackathon 2026, focused on Wimbledon 2026 predictions.
+Predictive analytics and explainable AI project for the EXL Analytics & AI Hackathon 2026, focused on Wimbledon 2026.
+
+## Current Status
+
+As of 24 June 2026:
+
+- The local ATP/WTA ingestion and feature pipelines run successfully.
+- Ranking, Elo, grass, recent-form, and rolling-form features are implemented.
+- Historical Wimbledon backtests and provisional 2026 Top 8 predictions are available.
+- The experimental classifier remains a research track because its Top 8 validation is not yet strong enough for submission.
+- The official draw must be incorporated before the Phase 1 selections are finalized.
+
+The source of truth for completed work, team ownership, and next steps is [plan.md](plan.md).
 
 ## Mission
 
@@ -18,7 +30,11 @@ Build a credible, explainable, and presentation-ready tennis prediction system t
 | Abhinay Singh | abhi1863@gmail.com | India |
 | Harshit Singh | harshitsingh398@gmail.com | India |
 
-**Everyone is a co-owner of this product.** We work as one team with shared ownership. Task distribution will be finalized after our first successful meeting and team discussion. Areas of focus include data engineering, model development, explainability, and presentation.
+**Everyone is a co-owner of this product.** Current ownership is:
+
+- Rohit: submission, draw mapping, risk review, and coordination.
+- Harshit: modeling, backtesting, and uncertainty analysis.
+- Abhinay: data quality, draw ingestion, and reproducibility.
 
 ## Operating Model
 
@@ -31,28 +47,39 @@ We will run like a small product team:
 - **Meetings:** Google Meet
 - **AI automation:** Jira/Confluence/GitHub MCP where available, with manual fallback templates
 
-## Current Status (as of 10 June 2026)
-
-- ✅ Repository created
-- ✅ Team invited to GitHub
-- ✅ Team added to Google Cloud project `AGI-Lab` with Editor access
-- ✅ Registration deadline passed
-- ⏳ Jira board setup: **[CV26 in progress](https://rohit6053patel.atlassian.net/jira/software/c/projects/CV26/boards/3)**
-- ⏳ Confluence pages: pending
-- 📅 **Phase 1 submission in 18 days** (28 June 2026, 11:59 PM IST) — *CRITICAL PRIORITY*
-
 ## Important Dates
 
 | Milestone | Date | Status |
 | --- | --- | --- |
-| Registration deadline | 8 June 2026 | ✅ Closed |
-| Doubt session 1 | 12 June 2026 | 📅 Upcoming |
-| Doubt session 2 | 19 June 2026 | 📅 Upcoming |
-| **Phase 1 submission** | **28 June 2026, 11:59 PM IST** | **🔴 PRIORITY** |
-| Phase 2 submission | 3-4 July 2026 | 📅 Upcoming |
-| Phase 3 submission | 7-12 July 2026 | 📅 Upcoming |
+| Registration deadline | 8 June 2026 | Closed |
+| Doubt session 1 | 12 June 2026 | Completed |
+| Doubt session 2 | 19 June 2026 | Completed |
+| **Phase 1 submission** | **28 June 2026, 11:59 PM IST** | **Critical** |
+| Phase 2 submission | 3-4 July 2026 | Upcoming |
+| Phase 3 submission | 7-12 July 2026 | Upcoming |
 | Leaderboard published | 14 July 2026 | 📅 Upcoming |
 | Final presentations | 20-24 July 2026 | 📅 Upcoming |
+
+## Run Locally
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/process_and_upload.py
+python scripts/phase1_model.py
+```
+
+The processing script expects these local files:
+
+- `data/atp_tennis.csv`
+- `data/wta.csv`
+- `data/MS_Entries.pdf`
+- `data/LS_Entries.pdf`
+
+Large raw and processed datasets are excluded from GitHub. Team members should obtain the shared source files, place them under `data/`, and run the commands above. Generated features go to `data/processed`, evaluations go to `reports`, and submission artifacts go to `submissions`.
+
+VS Code users can also run `Phase 1: Full local pipeline` from **Terminal > Run Task**.
 
 ## Repository Structure
 
@@ -163,13 +190,13 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 ```
 
-If a requirements file is added later, install it with:
+Install the project requirements with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-For now, keep experiments in `notebooks/` and reusable code in `src/`.
+Keep experiments in `notebooks/` and reusable code in `src/` or `scripts/`.
 
 ### 7. Explore the Project
 
@@ -180,8 +207,8 @@ For now, keep experiments in `notebooks/` and reusable code in `src/`.
 
 ### 8. Start Working
 
-1. Review this README and the sprint plan in `docs/`
-2. Join the team Jira board and claim a task from Sprint 0
+1. Review this README and `plan.md`
+2. Open the Jira board and review your assigned Phase 1 task
 3. Pull the latest `main`: `git pull origin main`
 4. Create a feature branch: `git checkout -b feature/task-description`
 5. Commit early and often; push to your branch
@@ -191,11 +218,11 @@ For now, keep experiments in `notebooks/` and reusable code in `src/`.
 
 If setting up the project for the first time:
 
-1. ✅ Repository already created
+1. Repository already created
 2. Import `jira/courtvision_ai_jira_backlog.csv` into Jira (if not done)
 3. Copy `docs/confluence/*.md` into Confluence pages
 4. Ensure all three team members have access to Jira, Confluence, GitHub, Google Cloud, and team chat
-5. Start Sprint 0 immediately and keep all decisions in docs
+5. Use `plan.md` and the active Jira sprint for daily coordination
 
 ---
 

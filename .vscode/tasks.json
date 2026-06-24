@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Python: Create venv",
+      "type": "shell",
+      "command": "python3 -m venv .venv"
+    },
+    {
+      "label": "Python: Install requirements",
+      "type": "shell",
+      "command": ". .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt"
+    },
+    {
+      "label": "Data: Process local inputs",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python scripts/process_and_upload.py",
+      "group": "build"
+    },
+    {
+      "label": "Phase 1: Run model",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python scripts/phase1_model.py",
+      "group": "build"
+    },
+    {
+      "label": "Phase 1: Full local pipeline",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Data: Process local inputs",
+        "Phase 1: Run model"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "GCP: Process and upload to bucket",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python scripts/process_and_upload.py --upload-gcs"
+    },
+    {
+      "label": "GCP: Process and load to BigQuery",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python scripts/process_and_upload.py --load-bigquery"
+    },
+    {
+      "label": "GCP: Process upload and load",
+      "type": "shell",
+      "command": ". .venv/bin/activate && python scripts/process_and_upload.py --upload-gcs --load-bigquery"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+category,model_rank,player,entry_rank,model_score,main_evidence
+Men's Singles,1,"SINNER, Jannik (ITA)",1,0.9262,strong overall Elo; entry rank 1; strong grass Elo
+Men's Singles,2,"ZVEREV, Alexander (GER)",2,0.8257,strong overall Elo; strong grass Elo; entry rank 2
+Men's Singles,3,"DJOKOVIC, Novak (SRB)",3,0.8150,strong grass Elo; strong overall Elo; 30-3 recent Wimbledon record
+Men's Singles,4,"FRITZ, Taylor (USA)",7,0.7376,strong grass Elo; strong overall Elo; 15-5 recent Wimbledon record
+Men's Singles,5,"MEDVEDEV, Daniil",6,0.7306,strong overall Elo; strong grass Elo; 46-20 recent record
+Men's Singles,6,"SHELTON, Ben (USA)",5,0.7275,strong overall Elo; strong grass Elo; 45-20 recent record
+Men's Singles,7,"AUGER-ALIASSIME, Felix (CAN)",4,0.7087,strong overall Elo; strong grass Elo; entry rank 4
+Men's Singles,8,"DE MINAUR, Alex (AUS)",8,0.7034,strong grass Elo; strong overall Elo; 46-23 recent record
+Women's Singles,1,"SABALENKA, Aryna",1,0.9009,strong overall Elo; entry rank 1; strong grass Elo
+Women's Singles,2,"RYBAKINA, Elena (KAZ)",2,0.8246,strong overall Elo; strong grass Elo; entry rank 2
+Women's Singles,3,"SWIATEK, Iga (POL)",3,0.8203,strong grass Elo; strong overall Elo; entry rank 3
+Women's Singles,4,"PEGULA, Jessica (USA)",5,0.7470,strong overall Elo; strong grass Elo; 51-17 recent record
+Women's Singles,5,"ANISIMOVA, Amanda (USA)",6,0.7239,strong grass Elo; strong overall Elo; 35-13 recent record
+Women's Singles,6,"SVITOLINA, Elina (UKR)",7,0.7167,strong overall Elo; strong grass Elo; 36-14 recent record
+Women's Singles,7,"GAUFF, Coco (USA)",4,0.7158,strong overall Elo; strong grass Elo; entry rank 4
+Women's Singles,8,"BENCIC, Belinda (SUI)",10,0.6853,strong grass Elo; strong overall Elo; 32-16 recent record

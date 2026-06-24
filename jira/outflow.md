@@ -432,6 +432,19 @@ Ticket clarified by Codex/Copilot bridge. Next step: Abhinay should wait for the
   - Agent added ADF-formatted kickoff/progress comments where possible, but could not perform direct field edits.
   - Next steps: ask a Jira project admin to add the required fields to the Edit screen or permit API edits, then re-run Request 006. Alternatively, an admin may apply the description/labels/story points manually.
 
+  ### Confluence publishing attempt
+
+  - Action taken: Created Confluence-ready markdown home page at `docs/confluence/courtvision-home.md` inside the repository.
+  - Limitation: The agent could not publish to Confluence via MCP — Confluence API access is unavailable or returned 404 for page operations. As a result, adding a Confluence link into Jira comments must wait until a Confluence page URL is available or until the agent is granted Confluence publishing permission.
+  - Suggested manual step for admin: copy `docs/confluence/courtvision-home.md` into Confluence, publish the page, then provide the page URL to the agent so it can add comments to sprint tickets linking the Confluence page.
+
+  ### Confluence comments posted
+
+  - Copilot Agent added ADF-formatted comments linking the provided Confluence draft URL to these Sprint 1 tickets: CV26-3, CV26-4, CV26-5, CV26-6, CV26-7, CV26-8, CV26-9.
+  - Method: used available `In Progress` transition (id 21) to attach comments via MCP — this moved statuses where the workflow allowed it.
+  - Comment example: "Project home published: CourtVision AI project home and documentation are available here: <CONFLUENCE_URL>. Please use this page for dataset research, modeling strategy, sprint plan, and submission checklist."
+  - Evidence: Comments are visible in each ticket; verify at https://rohit6053patel.atlassian.net
+
 ### Request 007
 
 - Status: Ready
@@ -475,4 +488,122 @@ Invite Abhinay and Harshit as collaborators and confirm they can access the repo
   - `CV26-3` has the GitHub blocker resolution comment.
   - `CV26-3` is no longer `BLOCKED`.
   - `jira/inflow.md` shows updated status and evidence link.
+- Execution notes:
+
+### Request 008
+
+- Status: Ready
+- Created by: Codex
+- Requested action: Refresh Phase 1 work, assign the three owners, and link GitHub evidence
+- Jira project: `CV26`
+- Priority: Highest
+- GitHub evidence: `https://github.com/entangleX/CourtVision`
+- Planning evidence: `https://github.com/entangleX/CourtVision/blob/main/plan.md`
+- Instructions:
+  - Search project `CV26` for existing issues matching the summaries below before creating anything.
+  - Prefer existing imported backlog tickets and avoid duplicates.
+  - Assign tickets using the named Jira users.
+  - Add the provided progress comment to each ticket.
+  - Move each selected ticket to `In Progress` using the board's actual transition.
+  - If direct assignment or field edits are blocked, add the comment, record the limitation, and leave the current field unchanged.
+  - Refresh `jira/inflow.md` after all actions.
+
+#### Rohit Kumar — Finalize and submit Phase 1
+
+- Preferred existing issues:
+  - `Prepare Phase 1 prediction file`
+  - `Write Phase 1 methodology note`
+  - `Submit Phase 1 entry`
+- Assignee: Rohit Kumar
+- Priority: Highest
+- Comment:
+
+```text
+Phase 1 coordination update from Codex:
+
+What changed:
+- Local data processing, feature generation, backtesting, methodology, and provisional Top 8 outputs are now available on GitHub.
+- The validated heuristic shortlist remains the primary recommendation.
+- The experimental classifier is retained as research only because Top 8 retrieval is weak.
+
+Why:
+- The official 2026 draw is still required to choose one projected quarterfinalist from each of the eight draw sections.
+
+Evidence:
+- https://github.com/entangleX/CourtVision
+- https://github.com/entangleX/CourtVision/blob/main/plan.md
+
+Next action:
+- Obtain the official men's and women's draws.
+- Map players into eight sections.
+- Review injuries and withdrawals.
+- Freeze and submit the final sixteen names before 28 June 2026 at 11:59 PM IST.
+```
+
+#### Harshit Singh — Audit modeling and backtests
+
+- Preferred existing issues:
+  - `Backtest top 8 selection`
+  - `Build ranking-only baseline`
+  - `Build Elo baseline`
+- Assignee: Harshit Singh
+- Priority: Highest
+- Comment:
+
+```text
+Modeling handoff from Codex:
+
+What changed:
+- Ranking, Elo, grass, recent-form, Wimbledon-history, and rolling-form features are implemented.
+- Historical heuristic and classifier backtest artifacts are available on GitHub.
+
+Why:
+- The experimental classifier currently has weak temporal Top 8 retrieval and must not replace the stronger heuristic shortlist without evidence.
+
+Evidence:
+- https://github.com/entangleX/CourtVision/blob/main/scripts/phase1_model.py
+- https://github.com/entangleX/CourtVision/blob/main/reports/phase1_draw_summary_20260624.md
+- https://github.com/entangleX/CourtVision/blob/main/plan.md
+
+Next action:
+- Audit leakage, temporal splits, class imbalance, and ranking metrics.
+- Compare ranking-only, Elo, grass, form, and hybrid approaches.
+- Recommend the final model and document borderline picks plus alternates.
+```
+
+#### Abhinay Singh — Validate data and reproducibility
+
+- Preferred existing issues:
+  - `Run Phase 1 reproducibility check`
+  - `Build initial data ingestion scripts`
+  - `Define data schema`
+- Assignee: Abhinay Singh
+- Priority: Highest
+- Comment:
+
+```text
+Data engineering handoff from Codex:
+
+What changed:
+- Repeatable local ingestion and Phase 1 modeling scripts are available on GitHub.
+- Required local input filenames and generated artifact locations are documented.
+
+Why:
+- The final submission must be reproducible, and the official draw needs a clean ingestion format before draw-aware selection.
+
+Evidence:
+- https://github.com/entangleX/CourtVision/blob/main/scripts/process_and_upload.py
+- https://github.com/entangleX/CourtVision/blob/main/data/README.md
+- https://github.com/entangleX/CourtVision/blob/main/plan.md
+
+Next action:
+- Run the project from a clean checkout.
+- Validate row counts, date coverage, schemas, and player-name mappings.
+- Define the official-draw input schema and record any manual setup or missing data.
+```
+
+- Expected output:
+  - Rohit, Harshit, and Abhinay each have at least one clear Phase 1 ticket in progress.
+  - Each ticket contains GitHub evidence, rationale, and a concrete next action.
+  - `jira/inflow.md` contains a fresh sprint snapshot and any assignment or transition limitations.
 - Execution notes:
